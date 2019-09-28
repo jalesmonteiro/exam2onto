@@ -54,9 +54,9 @@ class Janela:
     def processar(self):
         print('Processo iniciado.')
         self.verificar_pastas()
-        '''self.extrair()
+        self.extrair()
         self.unir()
-        self.tokenizar()'''
+        self.tokenizar()
         self.limpar()
         self.ranquear()
         self.wiki()
